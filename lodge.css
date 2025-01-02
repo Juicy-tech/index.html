@@ -1,0 +1,114 @@
+.center-text {
+    display: flex;
+    justify-content: center;
+    font-size: 22;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+   
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.jindle {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.water-mark {
+    position: absolute;
+    transform: translate(-50% -50%);
+    opacity: 0.5;
+    z-index: -2;
+    place-items: center;
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+
+}
+.water-mark img {
+    width: 800px;
+    height: auto;
+}
+.funk {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 100%;
+    animation: slide-in 0.5s ease-in-out forwards;
+}
+@keyframes slide-in {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    width: 197px;
+    height: 190px;
+    background-color: #e9d8d8;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    justify-content: end;
+    align-items: center;
+    margin: 20px;
+}
+.box img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.box-text {
+    padding: 5px;
+    text-decoration: none;
+}
+.box-text p {
+    font-size: 17px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.box:hover {
+    background-color: #a18280;
+    transform: translateX(0);
+    filter: blur(1px);
+}
+a {
+    text-decoration: none;
+}
+
+
+
